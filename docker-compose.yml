@@ -1,0 +1,8 @@
+version: '3.7'
+services:
+  app:
+    build: .
+    shm_size: 8g
+    tty: true
+    volumes:
+      - ./001.original:/app/001.original
